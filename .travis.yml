@@ -1,0 +1,7 @@
+language: none
+os:
+  - osx
+script:
+  - brew tap lpkruger/homebrew-lpkruger
+  - brew install duktape
+  - brew test duktape
